@@ -28,9 +28,9 @@ function getUserInfo() {
             renderAvater(res.data);
         },
         //无论成功或失败都会调用complete回调函数，  success，error
-        complete: function (res) {
-            //在complete回调函数中，可以使用res.responseJSON拿到服务器响应回来的数据
-        }
+        // complete: function (res) {
+        //     //在complete回调函数中，可以使用res.responseJSON拿到服务器响应回来的数据
+        // }
     })
 }
 
